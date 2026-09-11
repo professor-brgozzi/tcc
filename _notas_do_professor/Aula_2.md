@@ -15,11 +15,11 @@ Há uma forma de fornecer essa informação para ela. Veja a estrutura abaixo:
  ├── .github/ (<-pasta)
  │    ├── copilot-instructions.md
  │    ├── instructions/
- │    ├── html.instructions.md
- │    ├── css.instructions.md
- │    └── javascript.instructions.md
- ├── prompts/ (pasta)
- │    └── home.prompt.md
+ │    │     ├── html.instructions.md
+ │    │     ├── css.instructions.md
+ │    │     └── javascript.instructions.md
+ │    └── prompts/ (pasta)
+ │          └── home.prompt.md
  └── docs/ (pasta)
       └── manual.pdf
 ````
