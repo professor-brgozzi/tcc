@@ -40,6 +40,7 @@ Ex.:
 - "Use HTML semântico."
 - "Priorize acessibilidade."
 - "Use Bootstrap."
+
 ### 2. O que a IA deve USAR COMO REFERÊNCIA
 Aqui a gente deixa referências importantes pra Ia ter "um norte". (bem parecido como quando vamos preencher uma declaração e nos dão um "modelo" e a gente se baseia nisso pra fazer a nossa...)
  
@@ -55,6 +56,7 @@ Ex.:
 - Manual de tom de voz
 - Wireframes
 - Documentação do projeto
+
 ** IMPORTANTE **
 Os arquivos colocados em docs/ são referências do projeto, mas não são, por si só, instruções permanentes do Copilot.
 Quando uma referência for relevante para uma tarefa, devemos indicar essa referência no prompt ou disponibilizá-la como contexto da tarefa. 
@@ -74,27 +76,6 @@ Essas instruções vão para:
 Ex.:
 - Criar uma página interna seguindo o layout da referencia X com estrutura: cabecalho, conteudo, rodape.
 - Criar o card de produto no padrão Y.
-
-
-### Resumo geral da estrutura
- 
-| Elemento                          | Função                  |
-| --------------------------------- | ----------------------- |
-| `.github/copilot-instructions.md` | Regras gerais           |
-| `.github/instructions/`           | Regras específicas      |
-| `.github/prompts/`                | Instruções para tarefas |
-| `docs/`                           | Referências do projeto  |
- 
-
-
-# Exercício
- 
-Crie, no seu projeto, a estrutura de pastas apresentada nesta aula (`.github/copilot-instructions.md`, `.github/instructions/`, `.github/prompts/` e `docs/`).
- 
-Em seguida, escreva o conteúdo do arquivo `.github/copilot-instructions.md` com pelo menos 3 regras gerais do seu projeto (o que a IA deve SEMPRE fazer/saber).
- 
-Ao final, coloque dentro de `docs/` pelo menos uma referência do seu projeto (pode ser o manual de identidade visual, um wireframe ou outro documento que você já tenha).
-
 
 ---
 
@@ -132,3 +113,21 @@ Especificações:
 E em uma futura situação semelhante, você poderia até incrementar ainda mais. Adicionar altura X largura, quantas cópias etc etc. Ou seja, você não "parte do zero" sempre. 
 
 No uso recreativo, você pode conversar com a IA e simplesmente seguir em frente. No uso profissional, precisamos conseguir entender, repetir e melhorar o processo que produziu determinado resultado.
+
+### Resumo geral da estrutura
+ 
+| Elemento                          | Função                  |
+| --------------------------------- | ----------------------- |
+| `.github/copilot-instructions.md` | Regras gerais           |
+| `.github/instructions/`           | Regras específicas      |
+| `.github/prompts/`                | Instruções para tarefas |
+| `docs/`                           | Referências do projeto  |
+ 
+
+# Exercício
+ 
+Crie, no seu projeto, a estrutura de pastas apresentada nesta aula (`.github/copilot-instructions.md`, `.github/instructions/`, `.github/prompts/` e `docs/`).
+ 
+Em seguida, escreva o conteúdo do arquivo `.github/copilot-instructions.md` com pelo menos 3 regras gerais do seu projeto (o que a IA deve SEMPRE fazer/saber).
+ 
+Ao final, coloque dentro de `docs/` pelo menos uma referência do seu projeto (pode ser o manual de identidade visual, um wireframe ou outro documento que você já tenha).
