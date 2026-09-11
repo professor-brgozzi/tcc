@@ -25,7 +25,7 @@ Alunos de Design Digital (3º ano) - em desenvolvimento de projetos web profissi
 
 - Use nomes descritivos e em português para classes/IDs de contexto do projeto
 - Mantenha código limpo, legível e bem documentado
-- Siga a estrutura de pastas estabelecida em `ESTRUTURA_PASTAS.md`
+- Siga a estrutura de pastas estabelecida em `structure.instructions.md`
 - Comente código complexo ou não-óbvio
 - Use nomenclatura consistente (snake_case para CSS, camelCase para JavaScript)
 
