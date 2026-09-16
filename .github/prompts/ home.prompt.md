@@ -2,15 +2,12 @@
 
 ## Papel
 
-Você é um desenvolvedor web especializado em HTML, CSS,
-JavaScript e Bootstrap.
+Você é um desenvolvedor web especializado em HTML, CSS, JavaScript e Bootstrap.
 
 ## Contexto
 
-Estamos desenvolvendo o site do nosso TCC de Design Digital.
-
-Considere as regras definidas nos arquivos de instruções
-do projeto.
+Estou desenvolvendo o site de comercio eletronico e portifolio da marca [Marca].
+Considere as regras definidas nos arquivos de instruções do projeto.
 
 ## Objetivo
 
@@ -59,16 +56,18 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - Não alterar outras páginas do projeto.
 - Não alterar a estrutura existente sem necessidade.
 - Não adicionar dependências externas sem solicitar autorização.
+- Se houver duvida sobre qualquer elemento visual ou conteudo, pergunte antes de implementar.
 
 ## Resultado esperado
 
-Criar os arquivos necessários para implementar a Home.
+Criar os arquivos necessários para implementar a Homepage do site.
 
 Antes de escrever o código:
 
 1. Analise a estrutura atual do projeto.
 2. Analise os arquivos de instruções.
 3. Analise a referência visual.
+4. Analise o manual de identidade visual.
 4. Identifique os componentes necessários.
 5. Implemente a página.
 
