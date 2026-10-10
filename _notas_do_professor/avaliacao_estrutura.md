@@ -1,25 +1,3 @@
-Vou verificar as instruções e os arquivos principais do projeto para avaliar se o padrão de organização e escrita está consistente e adequado.
-
-Read 
-
-Read 
-
-Read 
-
-Read , lines 1 to 220
-
-Read , lines 1 to 220
-
-Estou validando a prática contra os arquivos reais do projeto para ver se a estrutura e o padrão foram aplicados de forma consistente.
-
-Read 
-
-Read 
-
-Read 
-
-Read 
-
 ## Avaliação geral
 
 Sim, o padrão é em grande parte adequado para um projeto acadêmico e didático, mas ainda há inconsistências importantes entre as instruções e o que foi implementado no repositório.
