@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions - TCC Design Digital
 
 ## Contexto do Projeto
-Este é site da empresa <nome> com o objetivo de apresentar um site funcional e navegavel em html usando o framework Bootstrap.
+Este é site da empresa [NOME_DO_TCC] com o objetivo de apresentar um site funcional e navegavel em html usando o framework Bootstrap.
 
 **Importante**: Deve ser estritamente um modelo navegavel. 
 - Não deve conter linguagem de programação Backend.
@@ -34,7 +34,7 @@ Este é site da empresa <nome> com o objetivo de apresentar um site funcional e 
 - **Documentação**: Português (pt-BR)
 - **Classes/IDs HTML**: Português ou Inglês técnico, conforme context
 
-## 🏗️ Organização do Projeto
+## Organização do Projeto
 
 ```
 projeto/
