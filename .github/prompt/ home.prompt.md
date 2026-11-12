@@ -39,9 +39,9 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - Se houver duvida sobre qualquer elemento visual ou conteudo, pergunte antes de implementar.
 
 ## Resultado esperado
+Uma pagina html com Bootstrap puro com todas os espaços de imagens substituidos pelo arquivo: `docs\MODELOS\placeholder.png` pois vou substituir depois pelas imagens corretas.
 
-Criar os arquivos necessários para implementar a Homepage do site.
-
+## Regras
 Antes de escrever o código:
 
 1. Analise a estrutura atual do projeto.
