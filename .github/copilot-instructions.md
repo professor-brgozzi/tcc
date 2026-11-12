@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions - TCC Design Digital
 
 ## Contexto do Projeto
-Este é site da empresa [NOME_DO_TCC] com o objetivo de apresentar um site funcional e navegavel em html usando o framework Bootstrap.
+Este é site da Etec Carlos de Campos com o objetivo de apresentar um site funcional e navegavel em html usando o framework Bootstrap.
 
 **Importante**: Deve ser estritamente um modelo navegavel. 
 - Não deve conter linguagem de programação Backend.
@@ -32,7 +32,7 @@ Este é site da empresa [NOME_DO_TCC] com o objetivo de apresentar um site funci
 
 - **Código e comentários**: Português (pt-BR)
 - **Documentação**: Português (pt-BR)
-- **Classes/IDs HTML**: Português ou Inglês técnico, conforme context
+- **Classes/IDs HTML**: Português ou Inglês técnico, conforme contexto
 
 ## Organização do Projeto
 
@@ -41,9 +41,6 @@ projeto/
 ├── .github/
 │   └── copilot-instructions.md       => Estas instruções
 ├── docs/
-│   ├── REQUISITOS.md                 => Descrição dos requisitos do sistema 
-│   ├── DESIGN_SYSTEM.md.             => Definição de design system
-│   └── LAYOUT.md                     => Instruções dos Layouts das páginas
 │
 ├── Index.html                        => Página principal
 ├── assets/
@@ -68,11 +65,6 @@ projeto/
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [GitHub Copilot Instructions](https://docs.github.com/en/copilot/concepts/prompting/response-customization)
 
-## Documentação
-Antes de implementar ou modificar interfaces:
-- Consulte docs/REQUISITOS.md.
-- Consulte docs/DESIGN_SYSTEM.md.
-- Consulte docs/LAYOUTS.md.
 
 ## Padrões visuais
 - Respeite a paleta de cores documentada.
@@ -83,4 +75,4 @@ Antes de implementar ou modificar interfaces:
 ## Restrições
 - NÃO INSTALE PACOTES (NPM)
 - NÃO USE LINGUAGENS DE PROGRAMAÇÃO BACKEND
-
+- NÃO USE FRAMEWORKS DE FRONTEND (REACT, ANGULAR ETC)

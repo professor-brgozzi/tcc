@@ -6,47 +6,27 @@ Você é um desenvolvedor web especializado em HTML, CSS, JavaScript e Bootstrap
 
 ## Contexto
 
-Estou desenvolvendo o site de comercio eletronico e portifolio da marca [Marca].
+Estou desenvolvendo o site da Etec Carlos de Campos.
 Considere as regras definidas nos arquivos de instruções do projeto.
 
 ## Objetivo
 
-Criar a página Home do site.
+Criar a página Home do site. 
 
 ## Referência visual
 
-A página deve reproduzir o layout desenvolvido no Figma:
+A página deve reproduzir o layout desenvolvido `docs\MODELOS\Home.png`
 
-https://www.figma.com/...
-
-Se o link não estiver acessível, utilize a imagem:
-#file:../assets/img/home.png
 
 ### Identidade visual
-
-Utilize o manual de identidade visual localizado em:
-
-docs/identidade-visual.pdf
-
-O manual é a fonte de referência para:
-
-- logotipo;
-- versões permitidas do logotipo;
-- cores;
-- tipografia;
-- proporções;
-- área de proteção;
-- aplicações da marca.
-
 Não invente cores, fontes ou versões do logotipo que não estejam previstas no manual.
 
 ## Requisitos
 
 - Utilizar HTML5 semântico.
-- Utilizar Bootstrap 5.
+- Utilizar Bootstrap (ultima versão).
 - Utilizar CSS personalizado somente quando necessário.
 - A página deve ser responsiva.
-- Seguir o layout do Figma.
 - Implementar a navegação.
 - Implementar os componentes visuais apresentados no layout.
 
