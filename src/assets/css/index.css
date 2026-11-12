@@ -3,7 +3,6 @@
   --verde: #005b2b;
   --verde-escuro: #00451f;
   --texto: #111;
-  --fundo: #faf9f6;
   --verde-claro: #edf2eb;
   --borda: #d7d9d4;
 }
@@ -25,7 +24,6 @@ button:focus-visible {
 }
 
 .cabecalho {
-  background: var(--fundo);
   border-bottom: 1px solid #e1e1dc;
 }
 
@@ -119,7 +117,7 @@ button:focus-visible {
 
 .destaque {
   padding: 1rem 0 1.2rem;
-  background: var(--fundo);
+  
 }
 
 .destaque__grade {
@@ -345,7 +343,7 @@ button:focus-visible {
 .rodape {
   padding: 1rem 0;
   border-top: 1px solid #e1e1dc;
-  background: var(--fundo);
+  
 }
 
 .rodape__grade {
@@ -420,11 +418,11 @@ button:focus-visible {
   .navbar-acao {
     margin-bottom: .75rem;
   }
-
+/*
   .destaque__grade {
     grid-template-columns: minmax(230px, .8fr) minmax(0, 1.2fr);
   }
-
+*/
   .imagem-placeholder--escola {
     min-height: 280px;
   }

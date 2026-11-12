@@ -43,22 +43,20 @@ O projeto utiliza o Bootstrap 5 com a abordagem **mobile-first**, garantindo que
 
 ```
 tcc/
-├── Index.html                 # Página principal
-├── README.md                  # Este arquivo
-├── GUIA_DESENVOLVIMENTO.md   # Guia para desenvolvimento
-├── DICAS_COPILOT.md          # Como usar Copilot
-├── .copilot.yml              # Configuração do Copilot
-├── assets/
-│   ├── css/
-│   │   └── styles.css        # Estilos customizados
-│   ├── js/
-│   │   └── script.js         # Scripts JavaScript
-│   └── img/
-│       └── (imagens do projeto)
-└── pages/
-    ├── sobre.html
-    ├── projetos.html
-    └── contato.html
+    src
+    ├── Index.html                 # Página principal
+    ├── README.md                  # Este arquivo
+    ├── assets/
+    │   ├── css/
+    │   │   └── styles.css        # Estilos customizados
+    │   ├── js/
+    │   │   └── script.js         # Scripts JavaScript
+    │   └── img/
+    │       └── (imagens do projeto)
+    └── pages/
+        ├── index.html
+        ├── grid.html
+        └── pdp.html
 ```
 
 ## 🚀 Como Usar Este Projeto

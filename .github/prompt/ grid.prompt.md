@@ -6,16 +6,19 @@ Você é um desenvolvedor web especializado em HTML, CSS, JavaScript e Bootstrap
 
 ## Contexto
 
-Estou desenvolvendo o site da Etec Carlos de Campos.
-Considere as regras definidas nos arquivos de instruções do projeto.
+Estou desenvolvendo o site da Etec Carlos de Campos. Considere as regras definidas nos arquivos de instruções do projeto.
 
 ## Objetivo
+Criar a página grid do site. 
 
-Criar a página grid de itens no site. 
+## Especificação técnica
+
+- caminho e nome do arquivo: `src/grid.html`
+- caminho e nome da folha de estilos: `src/assets/css/grid.css`
+- caminho da pasta de imagens: `src/assets/images`
 
 ## Referência visual
-A página deve reproduzir o layout desenvolvido `docs\MODELOS\Grid.png`
-
+A página deve reproduzir o layout desenvolvido `docs\MODELOS\grid.png`
 
 ### Identidade visual
 Não invente cores, fontes ou versões do logotipo que não estejam previstas no manual.
@@ -28,7 +31,6 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - A página deve ser responsiva.
 - Implementar a navegação.
 - Implementar os componentes visuais apresentados no layout.
-- Reaproveitar integralmente a estrutura de cabeçalho e rodapé da página Home.
 
 ## Restrições
 
@@ -37,10 +39,9 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - Não alterar a estrutura existente sem necessidade.
 - Não adicionar dependências externas sem solicitar autorização.
 - Se houver duvida sobre qualquer elemento visual ou conteudo, pergunte antes de implementar.
-- Não desenvolver cabeçalho e rodape novos. Eles devem ser reaproveitados integralmente da página Home (`index.html`).
 
 ## Resultado esperado
-Uma pagina html com Bootstrap puro com todos os espaços de imagens substituidos pelo arquivo: `docs\MODELOS\placeholder.png` pois vou substituir depois pelas imagens corretas.
+Uma pagina html com Bootstrap puro com todas os espaços de imagens substituidos pelo arquivo: `docs\MODELOS\placeholder.png` pois vou substituir depois pelas imagens corretas.
 
 ## Regras
 Antes de escrever o código:
@@ -50,6 +51,7 @@ Antes de escrever o código:
 3. Analise a referência visual.
 4. Analise o manual de identidade visual.
 4. Identifique os componentes necessários.
-5. Implemente a página.
+5. Se houver imagens, sempre copie para a pasta de imagens (`src/assets/images`) do projeto e utilize o caminho relativo correto. Inclusive o `placeholder.png` que deve ser utilizado no lugar de todas as imagens.
+6. Implemente a página.
 
 Ao final, explique brevemente o que foi criado.
