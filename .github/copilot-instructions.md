@@ -38,16 +38,20 @@ Este é site da Etec Carlos de Campos com o objetivo de apresentar um site funci
 
 ```
 projeto/
-├── .github/
-│   └── copilot-instructions.md       => Estas instruções
-├── docs/
-│
-├── Index.html                        => Página principal
-├── assets/
-│   ├── css/                          => Estilos
-│   ├── js/                           => Scripts
-│   └── img/                          => Imagens
-└── pages/                            => Páginas internas
+  ├── .github/
+  │   └── copilot-instructions.md       => Instruções
+  ├── docs/
+  │   └── MODELOS/
+  └── src/
+      ├── assets/
+      │   ├── css/                          
+      │   ├── js/                           
+      │   └── images/
+      ├── index.html    => Página principal
+      ├── produto.html  => Página produto
+      └── grid.html     => Página da grade
+                                
+
 ```
 
 ## Princípios de Desenvolvimento
