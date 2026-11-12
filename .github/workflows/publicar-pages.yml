@@ -32,7 +32,9 @@ jobs:
         run: |
           mkdir -p _site/assets/css _site/docs/MODELOS
           cp index.html _site/index.html
+          cp grid.html _site/grid.html
           cp assets/css/styles.css _site/assets/css/styles.css
+          cp assets/css/grid.css _site/assets/css/grid.css
           cp docs/MODELOS/placeholder.png _site/docs/MODELOS/placeholder.png
 
       - name: Enviar artefato do site
