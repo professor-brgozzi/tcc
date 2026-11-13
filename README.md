@@ -46,7 +46,7 @@ projeto/
   ├── .github/
   │   └── copilot-instructions.md       => Instruções
   ├── docs/
-  │   └── MODELOS/
+  │   └── modelos/
   └── src/
       ├── assets/
       │   ├── css/                          
@@ -59,12 +59,10 @@ projeto/
 
 ```
 
-## 📚 Bootstrap 5 - Links Úteis
-
-- **Documentação Oficial**: https://getbootstrap.com/docs/5.3/
-- **Componentes**: https://getbootstrap.com/docs/5.3/components/
-- **Grid System**: https://getbootstrap.com/docs/5.3/layout/grid/
-- **Utilities**: https://getbootstrap.com/docs/5.3/utilities/
+## 📚 Bootstrap - Links Úteis
+- [Bootstrap 6 Docs](https://getbootstrap.com/docs/6.0/guides/quickstart/)
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [GitHub Copilot Instructions](https://docs.github.com/en/copilot/concepts/prompting/response-customization)
 
 ### Importar Bootstrap via CDN
 

@@ -41,7 +41,7 @@ projeto/
   ├── .github/
   │   └── copilot-instructions.md       => Instruções
   ├── docs/
-  │   └── MODELOS/
+  │   └── modelos/
   └── src/
       ├── assets/
       │   ├── css/                          

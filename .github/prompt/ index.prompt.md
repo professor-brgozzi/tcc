@@ -6,7 +6,7 @@ Você é um desenvolvedor web especializado em HTML, CSS, JavaScript e Bootstrap
 
 ## Contexto
 
-Estou desenvolvendo o site da Etec Carlos de Campos. Considere as regras definidas nos arquivos de instruções do projeto.
+Estou desenvolvendo o site da `Etec Carlos de Campos`. Considere as regras definidas nos arquivos de instruções do projeto.
 
 ## Objetivo
 Criar a página index do site. 
@@ -18,7 +18,7 @@ Criar a página index do site.
 - caminho da pasta de imagens: `src/assets/images`
 
 ## Referência visual
-A página deve reproduzir o layout desenvolvido `docs\MODELOS\index.png`
+A página deve reproduzir o layout desenvolvido `docs\modelos\index.png`
 
 ### Identidade visual
 Não invente cores, fontes ou versões do logotipo que não estejam previstas no manual.
@@ -41,7 +41,7 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - Se houver duvida sobre qualquer elemento visual ou conteudo, pergunte antes de implementar.
 
 ## Resultado esperado
-Uma pagina html com Bootstrap puro com todas os espaços de imagens substituidos pelo arquivo: `docs\MODELOS\placeholder.png` pois vou substituir depois pelas imagens corretas.
+Uma pagina html com Bootstrap puro com todas os espaços de imagens substituidos pelo arquivo: `docs\modelos\placeholder.png` pois vou substituir depois pelas imagens corretas.
 
 ## Regras
 Antes de escrever o código:
