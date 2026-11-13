@@ -60,15 +60,15 @@ Todas as páginas devem se enquadrar em uma estrutura dividida em 3 blocos: Cabe
 
 ```html
 <!-- inicio cabecalho >> [folha de estilos: assets/css/cabecalho_rodape.css] -->
-<div class="container">{html do cabecalho}<div>
+<div class="container"> {html do cabecalho} </div>
 <!-- fim cabecalho -->
 
 <!-- inicio conteudo [folha de estilos: [assets/css/{nome_da_pagina}.css] -->
-<div class="container">{html do conteudo}<div>
+<div class="container"> {html do conteudo} </div>
 <!-- fim conteudo -->
 
 <!-- inicio rodape >> [folha de estilos: assets/css/cabecalho_rodape.css] -->
-<div class="container">{html do rodape}<div>
+<div class="container"> {html do rodape} </div>
 <!-- fim rodape -->
 ```
 

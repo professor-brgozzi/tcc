@@ -51,11 +51,11 @@ Uma pagina html com Bootstrap puro com todas os espaços de imagens substituidos
 Antes de escrever o código:
 
 1. Analise a estrutura atual do projeto.
-2. Analise os arquivos de instruções.
+2. Analise o arquivo de instruções. (`.github\copilot-instructions`)
 3. Analise a referência visual.
-4. Analise o manual de identidade visual.
-4. Identifique os componentes necessários.
+4. Identifique os componentes do bootstrap necessários.
 5. Se houver imagens, sempre copie para a pasta de imagens (`src/assets/images`) do projeto e utilize o caminho relativo correto. Inclusive o `placeholder.png` que deve ser utilizado no lugar de todas as imagens.
-6. Implemente a página.
+6. Se houver duvida sobre qualquer elemento visual ou conteudo, pergunte antes de implementar.
+7. Implemente a página.
 
 Ao final, explique brevemente o que foi criado.
