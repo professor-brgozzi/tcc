@@ -23,17 +23,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar repositório
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v7
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Enviar artefato do site
+      - name: Publicar arquivos de src
         uses: actions/upload-pages-artifact@v3
         with:
           path: src
 
-      - name: Publicar no GitHub Pages
+      - name: Deploy
         id: publicacao
         uses: actions/deploy-pages@v4
