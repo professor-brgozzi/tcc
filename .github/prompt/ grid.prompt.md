@@ -6,47 +6,29 @@ Você é um desenvolvedor web especializado em HTML, CSS, JavaScript e Bootstrap
 
 ## Contexto
 
-Estou desenvolvendo o site de comercio eletronico e portifolio da marca [Marca].
-Considere as regras definidas nos arquivos de instruções do projeto.
+Estou desenvolvendo o site da Etec Carlos de Campos. Considere as regras definidas nos arquivos de instruções do projeto.
 
 ## Objetivo
+Criar a página grid do site. 
 
-Criar a página Home do site.
+## Especificação técnica
+
+- caminho e nome do arquivo: `src/grid.html`
+- caminho e nome da folha de estilos: `src/assets/css/grid.css`
+- caminho da pasta de imagens: `src/assets/images`
 
 ## Referência visual
-
-A página deve reproduzir o layout desenvolvido no Figma:
-
-https://www.figma.com/...
-
-Se o link não estiver acessível, utilize a imagem:
-#file:../assets/img/home.png
+A página deve reproduzir o layout desenvolvido `docs\MODELOS\grid.png`
 
 ### Identidade visual
-
-Utilize o manual de identidade visual localizado em:
-
-docs/identidade-visual.pdf
-
-O manual é a fonte de referência para:
-
-- logotipo;
-- versões permitidas do logotipo;
-- cores;
-- tipografia;
-- proporções;
-- área de proteção;
-- aplicações da marca.
-
 Não invente cores, fontes ou versões do logotipo que não estejam previstas no manual.
 
 ## Requisitos
 
 - Utilizar HTML5 semântico.
-- Utilizar Bootstrap 5.
+- Utilizar Bootstrap (ultima versão).
 - Utilizar CSS personalizado somente quando necessário.
 - A página deve ser responsiva.
-- Seguir o layout do Figma.
 - Implementar a navegação.
 - Implementar os componentes visuais apresentados no layout.
 
@@ -59,9 +41,9 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - Se houver duvida sobre qualquer elemento visual ou conteudo, pergunte antes de implementar.
 
 ## Resultado esperado
+Uma pagina html com Bootstrap puro com todas os espaços de imagens substituidos pelo arquivo: `docs\MODELOS\placeholder.png` pois vou substituir depois pelas imagens corretas.
 
-Criar os arquivos necessários para implementar a Homepage do site.
-
+## Regras
 Antes de escrever o código:
 
 1. Analise a estrutura atual do projeto.
@@ -69,6 +51,7 @@ Antes de escrever o código:
 3. Analise a referência visual.
 4. Analise o manual de identidade visual.
 4. Identifique os componentes necessários.
-5. Implemente a página.
+5. Se houver imagens, sempre copie para a pasta de imagens (`src/assets/images`) do projeto e utilize o caminho relativo correto. Inclusive o `placeholder.png` que deve ser utilizado no lugar de todas as imagens.
+6. Implemente a página.
 
 Ao final, explique brevemente o que foi criado.
