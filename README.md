@@ -93,6 +93,8 @@ cd src
 python3 -m http.server 8000
 ```
 
+📘 Passo a passo do aluno: [Wiki](https://github.com/professor-brgozzi/tcc/wiki).
+
 ## 📄 Licença
 
 Este projeto é um exemplo educacional para alunos de Design Digital.
