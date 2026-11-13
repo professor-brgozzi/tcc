@@ -15,20 +15,20 @@ Este projeto serve como template e referência para alunos do 3º ano de Design 
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica
-- **CSS3** - Estilização com Bootstrap 5
-- **Bootstrap 5** - Framework CSS responsivo
+- **CSS3** - Estilização com Bootstrap
+- **Bootstrap** - Framework CSS responsivo
 - **JavaScript** - Interatividade (quando necessário)
 
 ## 📱 Responsividade
 
-O projeto utiliza o Bootstrap 5 com a abordagem **mobile-first**, garantindo que a experiência seja otimizada para:
+O projeto utiliza o Bootstrap com a abordagem **mobile-first**, garantindo que a experiência seja otimizada para:
 
 - 📱 Dispositivos móveis (320px+)
 - 📱 Tablets (768px+)
 - 🖥️ Desktops (1024px+)
 - 🖥️ Telas grandes (1200px+)
 
-### Breakpoints do Bootstrap 5
+### Breakpoints do Bootstrap
 
 | Dispositivo | Tamanho | Classe Bootstrap |
 |-----------|---------|------------------|
