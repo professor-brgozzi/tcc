@@ -15,6 +15,7 @@ Criar a página index do site.
 
 - caminho e nome do arquivo: `src/index.html`
 - caminho e nome da folha de estilos: `src/assets/css/index.css`
+- folha de estilos compartilhada obrigatória: `src/assets/css/cabecalho_rodape.css`
 - caminho da pasta de imagens: `src/assets/images`
 
 ## Referência visual
@@ -28,6 +29,9 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - Utilizar HTML5 semântico.
 - Utilizar Bootstrap (ultima versão).
 - Utilizar CSS personalizado somente quando necessário.
+- Reutilizar o cabeçalho e o rodapé padrão do projeto, mantendo sua estrutura e estilos definidos em `src/assets/css/cabecalho_rodape.css`.
+- Referenciar `cabecalho_rodape.css` antes da folha de estilos específica da página.
+- Não duplicar nem sobrescrever os estilos do cabeçalho e do rodapé na folha de estilos da página.
 - A página deve ser responsiva.
 - Implementar a navegação.
 - Implementar os componentes visuais apresentados no layout.
