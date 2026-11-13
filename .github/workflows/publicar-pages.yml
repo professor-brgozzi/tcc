@@ -3,7 +3,7 @@ name: Publicar no GitHub Pages
 on:
   push:
     branches:
-      - gerador
+      - main
   workflow_dispatch:
 
 permissions:
@@ -21,26 +21,18 @@ jobs:
       name: github-pages
       url: ${{ steps.publicacao.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Baixar o repositório
+      - name: Baixar repositório
         uses: actions/checkout@v4
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Preparar arquivos estáticos
-        run: |
-          mkdir -p _site/assets/css _site/docs/MODELOS
-          cp index.html _site/index.html
-          cp grid.html _site/grid.html
-          cp assets/css/styles.css _site/assets/css/styles.css
-          cp assets/css/grid.css _site/assets/css/grid.css
-          cp docs/MODELOS/placeholder.png _site/docs/MODELOS/placeholder.png
-
       - name: Enviar artefato do site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: src
 
       - name: Publicar no GitHub Pages
         id: publicacao
