@@ -54,6 +54,31 @@ projeto/
 
 ```
 
+## Estrutura obrigatória das páginas
+
+Todas as páginas devem se enquadrar em uma estrutura dividida em 3 blocos: Cabeçalho, Conteudo e Rodapé
+
+```html
+<!-- inicio cabecalho >> [folha de estilos: assets/css/cabecalho_rodape.css] -->
+<div class="container">{html do cabecalho}<div>
+<!-- fim cabecalho -->
+
+<!-- inicio conteudo [folha de estilos: [assets/css/{nome_da_pagina}.css] -->
+<div class="container">{html do conteudo}<div>
+<!-- fim conteudo -->
+
+<!-- inicio rodape >> [folha de estilos: assets/css/cabecalho_rodape.css] -->
+<div class="container">{html do rodape}<div>
+<!-- fim rodape -->
+```
+
+- **bloco `cabecalho`** : Usa estritamente folha de estilos `assets/css/cabecalho_rodape.css`
+- **bloco `rodape`** : Usa estritamente folha de estilos `assets/css/cabecalho_rodape.css`
+- **bloco `conteudo`** : Usa estritamente folha de estilos criada de acordo com seu nome `assets/css/{nome_da_pagina}.css`
+
+
+> Por exemplo: `index.html` deve usar `assets/css/index.css`, `produto.html` deve usar `assets/css/produto.css`, e assim por diante. 
+
 ## Princípios de Desenvolvimento
 
 1. **Semântica**: Use tags HTML semânticas (`<header>`, `<nav>`, `<main>`, `<footer>`, `<section>`, `<article>`)

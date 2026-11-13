@@ -29,7 +29,7 @@ Não invente cores, fontes ou versões do logotipo que não estejam previstas no
 - Utilizar HTML5 semântico.
 - Utilizar Bootstrap (ultima versão).
 - Utilizar CSS personalizado somente quando necessário.
-- Reutilizar o cabeçalho e o rodapé padrão do projeto, mantendo sua estrutura e estilos definidos em `src/assets/css/cabecalho_rodape.css`.
+- Colocar todos os estilos do cabecalho e rodape em uma folha de estilos definida como `src/assets/css/cabecalho_rodape.css`.
 - Referenciar `cabecalho_rodape.css` antes da folha de estilos específica da página.
 - Não duplicar nem sobrescrever os estilos do cabeçalho e do rodapé na folha de estilos da página.
 - A página deve ser responsiva.
