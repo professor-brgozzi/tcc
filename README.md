@@ -5,7 +5,7 @@ Projeto modelo para o TCC de Design Digital. Você cria o layout, e a Inteligên
 
 ## 📋 Sobre o Projeto
 
-Aqui você não vai só *pedir coisas* para a IA: vai aprender a **trabalhar junto com ela**, do jeito que equipes profissionais fazem. Você desenha o layout, dá o contexto (as regras do projeto e um prompt para cada página), a IA escreve o código e você revisa o resultado. A IA é rápida, mas quem responde pelo TCC é você.
+A proposta é sair do *pedir coisas* para a IA e passar a **trabalhar junto com ela**, do jeito que equipes profissionais fazem. Você desenha o layout, dá o contexto (as regras do projeto e um prompt para cada página), a IA escreve o código e <u>você revisa o resultado</u>.
 
 Durante o projeto você vai praticar:
 
