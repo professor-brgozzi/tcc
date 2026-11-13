@@ -1,17 +1,22 @@
+
 # TCC - Design Digital 3º Ano
 
-Exemplo de Trabalho de Conclusão de Curso para alunos de Design Digital, demonstrando boas práticas em design responsivo e desenvolvimento web.
+Projeto modelo para o TCC de Design Digital. Você cria o layout, e a Inteligência Artificial te ajuda a transformá-lo em um site de verdade, publicado na internet.
 
 ## 📋 Sobre o Projeto
 
-Este projeto serve como template e referência para alunos do 3º ano de Design Digital, mostrando como estruturar um projeto web profissional usando Inteligencia artificial com:
+Aqui você não vai só *pedir coisas* para a IA: vai aprender a **trabalhar junto com ela**, do jeito que equipes profissionais fazem. Você desenha o layout, dá o contexto (as regras do projeto e um prompt para cada página), a IA escreve o código e você revisa o resultado. A IA é rápida, mas quem responde pelo TCC é você.
 
+Durante o projeto você vai praticar:
+
+- ✅ Escrever prompts claros e específicos
+- ✅ Revisar e corrigir código gerado por IA
 - ✅ Design responsivo (mobile-first)
 - ✅ Acessibilidade
 - ✅ Boas práticas HTML/CSS
 - ✅ Componentes reutilizáveis
 - ✅ Documentação clara
-
+  
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica
