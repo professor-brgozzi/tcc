@@ -84,6 +84,15 @@ projeto/
 - [ ] Testado em navegadores principais
 
 
+## Para rodar o projeto:
+
+Abra o terminal, cole o comando abaixo e dê `Enter`
+
+```
+cd src
+python3 -m http.server 8000
+```
+
 ## 📄 Licença
 
 Este projeto é um exemplo educacional para alunos de Design Digital.
