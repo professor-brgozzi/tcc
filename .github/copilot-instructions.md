@@ -56,9 +56,10 @@ projeto/
 
 ## Estrutura obrigatória das páginas
 
-Todas as páginas devem se enquadrar em uma estrutura dividida em 3 blocos: Cabeçalho, Conteudo e Rodapé
-
+Todas as páginas devem se enquadrar em uma estrutura dividida em 3 blocos: Cabeçalho, Conteudo e Rodapé.
+Essa estutura é inegociável.
 ```html
+<body>
 <!-- inicio cabecalho >> [folha de estilos: assets/css/cabecalho_rodape.css] -->
 <div class="container"> {html do cabecalho} </div>
 <!-- fim cabecalho -->
@@ -70,11 +71,32 @@ Todas as páginas devem se enquadrar em uma estrutura dividida em 3 blocos: Cabe
 <!-- inicio rodape >> [folha de estilos: assets/css/cabecalho_rodape.css] -->
 <div class="container"> {html do rodape} </div>
 <!-- fim rodape -->
+</body>
 ```
 
 - **bloco `cabecalho`** : Usa estritamente folha de estilos `assets/css/cabecalho_rodape.css`
 - **bloco `rodape`** : Usa estritamente folha de estilos `assets/css/cabecalho_rodape.css`
 - **bloco `conteudo`** : Usa estritamente folha de estilos criada de acordo com seu nome `assets/css/{nome_da_pagina}.css`
+
+
+### Base para iniciar
+Use estritamente essa base para montar as páginas.
+
+```html
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{nome do site}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- codigo html -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+  </body>
+</html>
+```
 
 
 > Por exemplo: `index.html` deve usar `assets/css/index.css`, `produto.html` deve usar `assets/css/produto.css`, e assim por diante. 
